@@ -1,4 +1,102 @@
-:root {
---text-color:red;
 
+/* Основной цвет #212121 */
+/* Вторичный цвет #757575 */
+/* Цвет при наведении и фокусе #2196F3 */
+
+:root {
+ --primary-text-color:#757575;
+--bg-color:#ffffff;
+--title-text-color:#212121;
+--accent-color:#2196F3;
+--button-color:#ffffff;
+
+}
+
+body
+{
+background-color: var(--bg-color);
+color: var(--primary-text-color);
+}
+
+.logo {
+
+   color: var(--title-text-color); 
+}
+.logo-color span {
+
+color:var(--accent-color)  ; 
+
+}
+.menu-link a {
+
+ color: var(--title-text-color);
+}
+.menu-link a:hover, .menu-link a:focus {
+color: var(--accent-color);
+
+}
+.contact-link a {
+color: var(--primary-text-color);
+
+}
+.contact-link a:hover, contact-link a:focus {
+color:var(--accent-color);
+}
+
+h1 {
+    color:#ffffff;
+}
+h2,h3 {
+
+  color: #212121;  
+}
+h4 {
+    color:#ffffff;  
+}
+
+.button {
+color:var(--button-color);
+background-color: var(--accent-color);
+
+}
+.adress-style a{
+color:#ffffff;
+
+}
+.adress-style a span {
+color: var(--accent-color);
+}
+.adress-style span {
+    color:#ffffff;
+}
+.content a
+{
+text-decoration: none;;
+}
+.content h3
+{
+
+    color: var(--title-text-color);
+}
+.content p {
+
+color: var(--primary-text-color);
+}
+.menu-filter a {
+background-color: #F5F4FA;
+color:#212121;
+
+}
+.menu-filter a:hover, .menu-filter a:focus
+ 
+{
+background-color: var(--accent-color);
+color: var(--button-color);
+}
+.content .description {
+    color:#ffffff;
+}
+.content a:hover {
+
+    background-color: rgba(33, 150, 243, 0.9);
 }

@@ -3,28 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-    <title>Document</title>
+    <title>Портфолио</title>
+<link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
      <!-- Шапка сайта  -->
     <header>
-    <nav>
-<a href="./index.html" title="Logo">Web Studio</a>
-
-<ul>
-<li><a href="./index.html">Студия</a></li>
-<li><a href="">Портфолио</a></li>
-<li><a href="">Контакты</a></li>
-</ul>
-
-<ul>
-<li><a href="mailto:info@devstudio.com"> info@devstudio.com </a></li>
-<li><a href="tel:+380961111111"> +38 096 111 11 11 </a></li>
-
-</ul>
-</nav>
+        <nav>
+            <a href="./index.html" title="Logo" class="logo logo-color "><span>Web</span> Studio</a>
+            
+            <ul class="menu">
+            <li class="menu-link"><a href="./index.html">Студия</a></li>
+            <li class="menu-link"><a href="">Портфолио</a></li>
+            <li class="menu-link"><a href="">Контакты</a></li>
+            </ul>
+            
+            <ul class="contact">
+            <li class="contact-link"><a href="mailto:info@devstudio.com"> info@devstudio.com </a></li>
+            <li class="contact-link"><a href="tel:+380961111111" > +38 096 111 11 11 </a></li>
+            
+            </ul>
+            </nav>
     </header>
-    <nav>
+    <section>
+        <h2>Наши работы</h2>
+    <nav class="menu-filter">
 
 <ul>
     <li><a href="">Все</a></li>
@@ -36,84 +39,131 @@
 
 </nav>
 
-<section>
+<div class="content">
 
 <ul>
 <li>
-    <a href=""><img src="" alt=""></a>
+    
+    <a href=""><img src="./images/tehno.jpg" width="370" alt="Технокряк">
+
+    <p class="description">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
     <h3>
-        <p></p>
+        Технокряк
     </h3>
+    <p>Веб-сайт</p>
+</a>
 </li>
 <li>
-    <!-- По макету я так понял, ято при наведении на курсора  -->
+    <!-- По макету я так понял, что при наведении на курсора на весь блок  -->
     <a href="">
-        
-        <img src="./images/poster.jpg" alt="Постер">
-    <h3 hidden>
+        <img src="./images/poster.jpg" width="370" alt="Постер">
+    <h3>
         Постер New Orlean vs Golden Star
     </h3>
     <p>Дизайн</p>
 </a>
 </li>
 <li>
-    <a href=""><img src="./images/restoran.jpg" alt="Ресторан"></a>
-    <h3 hidden>
+    <a href=""><img src="./images/restoran.jpg" width="370" alt="Ресторан морепродукты">
+    <h3>
         Ресторан Seafood
     </h3>
     <p>Приложение</p>
+</a>
 </li>
 </ul>
 
 <ul>
 <li>
+    <a href=""><img src="./images/project-prime.jpg" width="370" alt="Проект Прайм">
+        <h3>
+            Проект Prime
+        </h3>
+        <p>Маркетинг</p>
+    </a>
 </li>
-<li></li>
-<li></li>
+<li>
 
+    <a href=""><img src="./images/project-box.jpg" width="370" alt="Проект ящики">
+        <h3>
+            Проект Boxes
+        </h3>
+        <p>Приложение</p>
+    </a>
+</li>
+<li>
+
+    <a href=""><img src="./images/inspiration.jpg" width="370" alt="Стремление не имеет границ">
+        <h3>
+            Inspiration has no Borders
+        </h3>
+        <p>Веб-сайт</p>
+    </a>
+</li>
 </ul>
 <ul>
-<li></li>
-<li></li>
-<li></li>
+<li>
+    <a href=""><img src="./images/izdanie.jpg" width="370" alt="Издание">
+        <h3>
+            Издание Limited Edition
+        </h3>
+        <p>Дизайн</p>
+    </a>
+</li>
+<li>
+    <a href=""><img src="./images/project-lab.jpg" width="370" alt="Проект лаб">
+        <h3>
+            Проект LAB
+        </h3>
+        <p>Маркетинг</p>
+    </a>
+</li>
+<li>
+    <a href=""><img src="./images/growing.jpg" width="370" alt="Растущий бизнес">
+        <h3>
+            Growing Business
+        </h3>
+        <p>Приложение</p>
+    </a>
+</li>
 </ul>
-
+</div>
 </section>
 <footer>
-<ul>
+    <ul>
+        <li>
+        <address class="adress-style">
+    <a href="./index.html" class=""><span>Web</span> Studio</a>
+    <p>
+        <span>
+        г. Киев, пр-т Леси Украинки, 26
+    </span><br>
+    info@example.com<br>
+    +38 099 111 11 11
+    </p>
+        </address>
+    </li>
     <li>
-    <address>
-<a href="./index.html">Web Studio</a>
-<p>
-    <span>
-    г. Киев, пр-т Леси Украинки, 26
-</span><br>
-info@example.com<br>
-+38 099 111 11 11
-</p>
-    </address>
-</li>
-<li>
-<h3>присоединяйтесь</h3>
-<div>
-    <a href=""> 
-        <img src="./images/insta.svg" alt="Инстаграмм">
-        
-        </a>
-        <a href="">
-            <img src="./images/twitter.svg" alt="Твитер">
-        </a>
-        <a href="">
-            <img src="./images/fb.svg" alt="Фейсбук">
-        </a>
-        <a href="">
-            <img src="./images/linkedin.svg" alt="Линкедин">
-        </a>
-</div>
-</li>
-<li>
-    <!--  в ДЗ нету-->
-</li></ul>
-</footer>
+    <h4>присоединяйтесь</h4>
+    <div>
+        <a href=""> 
+            <img src="./images/insta.svg" alt="Инстаграмм">
+            
+            </a>
+            <a href="">
+                <img src="./images/twitter.svg" alt="Твитер">
+            </a>
+            <a href="">
+                <img src="./images/fb.svg" alt="Фейсбук">
+            </a>
+            <a href="">
+                <img src="./images/linkedin.svg" alt="Линкедин">
+            </a>
+    </div>
+    </li>
+    <li>
+        <!--  в ДЗ нету-->
+    </li></ul>
+    </footer>
 </body>
 </html>
