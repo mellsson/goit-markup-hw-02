@@ -17,6 +17,10 @@ body
 background-color: var(--bg-color);
 color: var(--primary-text-color);
 }
+body a {
+
+    text-decoration: none;   
+}
 
 .logo {
 
@@ -42,13 +46,16 @@ color: var(--primary-text-color);
 .contact-link a:hover, contact-link a:focus {
 color:var(--accent-color);
 }
+.contact-text {
+    color:#ffffff;  
+}
 
 h1 {
     color:#ffffff;
 }
 h2,h3 {
 
-  color: #212121;  
+  color: var(--title-text-color);
 }
 h4 {
     color:#ffffff;  
@@ -69,15 +76,12 @@ color: var(--accent-color);
 .adress-style span {
     color:#ffffff;
 }
-.content a
-{
-text-decoration: none;;
-}
-.content h3
+
+/* .content h3
 {
 
     color: var(--title-text-color);
-}
+} */
 .content p {
 
 color: var(--primary-text-color);
@@ -99,4 +103,10 @@ color: var(--button-color);
 .content a:hover {
 
     background-color: rgba(33, 150, 243, 0.9);
+}
+.logo-footer {
+color: #ffffff;
+}
+.logo-footer span {
+    color:#2196F3;
 }
