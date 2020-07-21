@@ -17,6 +17,8 @@ body
 background-color: var(--bg-color);
 color: var(--primary-text-color);
 }
+
+/* Временно дял красоты */
 body a {
 
     text-decoration: none;   
@@ -26,9 +28,9 @@ body a {
 
    color: var(--title-text-color); 
 }
-.logo-color span {
+.logo-color {
 
-color:var(--accent-color)  ; 
+color:var(--accent-color); 
 
 }
 .menu-link a {
@@ -66,47 +68,27 @@ color:var(--button-color);
 background-color: var(--accent-color);
 
 }
-.adress-style a{
-color:#ffffff;
 
-}
-.adress-style a span {
-color: var(--accent-color);
-}
-.adress-style span {
-    color:#ffffff;
-}
-
-/* .content h3
-{
-
-    color: var(--title-text-color);
-} */
-.content p {
+.project p {
 
 color: var(--primary-text-color);
 }
-.menu-filter a {
+.menu-filter button {
 background-color: #F5F4FA;
 color:#212121;
 
 }
-.menu-filter a:hover, .menu-filter a:focus
+ .menu-filter button:hover, .menu-filter button:focus
  
 {
 background-color: var(--accent-color);
 color: var(--button-color);
+
 }
-.content .description {
+.project .description {
     color:#ffffff;
 }
-.content a:hover {
 
-    background-color: rgba(33, 150, 243, 0.9);
-}
 .logo-footer {
 color: #ffffff;
-}
-.logo-footer span {
-    color:#2196F3;
 }
